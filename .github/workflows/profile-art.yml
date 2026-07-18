@@ -21,6 +21,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # Runs before the snake so dist/ is created by the runner user;
+      # the snake action is a Docker action and writes as root, which
+      # the runner cannot copy into afterwards.
+      - name: Collect generated SVGs
+        run: |
+          mkdir -p dist
+          cp profile-3d-contrib/*.svg dist/
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
@@ -28,17 +42,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#ec4899&color_dots=#ede9fe,#c4b5fd,#a78bfa,#8b5cf6,#7c3aed
             dist/github-contribution-grid-snake-dark.svg?color_snake=#ec4899&color_dots=#1e1b4b,#4c1d95,#7c3aed,#c026d3,#f0abfc
-
-      - name: Generate 3D contribution graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Collect generated SVGs
-        run: |
-          mkdir -p dist
-          cp profile-3d-contrib/*.svg dist/
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
