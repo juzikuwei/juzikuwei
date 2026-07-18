@@ -86,7 +86,7 @@ small experiments before large abstractions
 
 <div align="center">
   <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=juzikuwei&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&bg_color=00000000&title_color=67e8f9&icon_color=a78bfa&text_color=94a3b8" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juzikuwei&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=67e8f9&text_color=94a3b8&langs_count=6" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=juzikuwei&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=67e8f9&text_color=94a3b8&langs_count=6" alt="Top languages" />
 </div>
 
 <div align="center">
