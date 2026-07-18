@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:ec4899,100:06b6d4&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=AI-native%20applications%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:064e3b,100:0f766e&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=39d353&animation=twinkling&fontAlignY=36&desc=AI-native%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=F472B6&center=true&vCenter=true&width=820&lines=Building+AI-native+applications;RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;Grounded+answers+over+glossy+demos;From+prototype+to+measurable+workflow" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
 </a>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=juzikuwei&style=for-the-badge&color=ec4899&label=PROFILE+VIEWS" alt="Profile views" />
-  <a href="mailto:juzidekuwei@outlook.com"><img src="https://img.shields.io/badge/Email-juzidekuwei%40outlook.com-8b5cf6?style=for-the-badge&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/juzikuwei/tech-radar-agent"><img src="https://img.shields.io/badge/Featured-tech--radar--agent-06b6d4?style=for-the-badge&logo=github&logoColor=white" alt="Featured project" /></a>
+  <img src="https://komarev.com/ghpvc/?username=juzikuwei&style=for-the-badge&color=00e676&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="mailto:juzidekuwei@outlook.com"><img src="https://img.shields.io/badge/Email-juzidekuwei%40outlook.com-064e3b?style=for-the-badge&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/juzikuwei/tech-radar-agent"><img src="https://img.shields.io/badge/Featured-tech--radar--agent-0f766e?style=for-the-badge&logo=github&logoColor=white" alt="Featured project" /></a>
 </p>
 
 </div>
 
-## ⚡ About me
+## 🖥️ ~/whoami
 
 I build AI-native applications that are **testable, observable, and grounded in evidence** — workflows that survive failure instead of only looking good in a demo.
 
@@ -25,56 +25,56 @@ I build AI-native applications that are **testable, observable, and grounded in 
 
 > 中文简介：把 AI 产品想法做成可测试、可观测、可验证的工作流。
 
-## 🚀 Featured builds
+## 🚀 ~/projects
 
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/juzikuwei/tech-radar-agent">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=juzikuwei&repo=tech-radar-agent&hide_border=true&bg_color=00000000&title_color=f472b6&icon_color=67e8f9&text_color=94a3b8" alt="AI/Agent Tech Radar" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=juzikuwei&repo=tech-radar-agent&hide_border=true&bg_color=00000000&title_color=00e676&icon_color=22d3ee&text_color=94a3b8" alt="AI/Agent Tech Radar" />
       </a>
       <p>
-        <img src="https://img.shields.io/badge/Python-1e1b4b?style=flat-square&logo=python&logoColor=f0abfc" alt="Python" />
-        <img src="https://img.shields.io/badge/FastAPI-1e1b4b?style=flat-square&logo=fastapi&logoColor=f0abfc" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/React-1e1b4b?style=flat-square&logo=react&logoColor=f0abfc" alt="React" />
-        <img src="https://img.shields.io/badge/RAG-1e1b4b?style=flat-square&logoColor=f0abfc" alt="RAG" />
-        <img src="https://img.shields.io/badge/MCP-1e1b4b?style=flat-square&logoColor=f0abfc" alt="MCP" />
+        <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00e676" alt="Python" />
+        <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=00e676" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=00e676" alt="React" />
+        <img src="https://img.shields.io/badge/RAG-0d1117?style=flat-square&logoColor=00e676" alt="RAG" />
+        <img src="https://img.shields.io/badge/MCP-0d1117?style=flat-square&logoColor=00e676" alt="MCP" />
       </p>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/juzikuwei/focus-group-AI-Agent">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=juzikuwei&repo=focus-group-AI-Agent&hide_border=true&bg_color=00000000&title_color=f472b6&icon_color=67e8f9&text_color=94a3b8" alt="Focus Lab" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=juzikuwei&repo=focus-group-AI-Agent&hide_border=true&bg_color=00000000&title_color=00e676&icon_color=22d3ee&text_color=94a3b8" alt="Focus Lab" />
       </a>
       <p>
-        <img src="https://img.shields.io/badge/JavaScript-1e1b4b?style=flat-square&logo=javascript&logoColor=f0abfc" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/LangChain-1e1b4b?style=flat-square&logoColor=f0abfc" alt="LangChain" />
-        <img src="https://img.shields.io/badge/Streaming-1e1b4b?style=flat-square&logoColor=f0abfc" alt="Streaming" />
-        <img src="https://img.shields.io/badge/LLM_apps-1e1b4b?style=flat-square&logoColor=f0abfc" alt="LLM applications" />
+        <img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00e676" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logoColor=00e676" alt="LangChain" />
+        <img src="https://img.shields.io/badge/Streaming-0d1117?style=flat-square&logoColor=00e676" alt="Streaming" />
+        <img src="https://img.shields.io/badge/LLM_apps-0d1117?style=flat-square&logoColor=00e676" alt="LLM applications" />
       </p>
     </td>
   </tr>
 </table>
 
-## 🧰 Toolkit
+## 🧰 ~/stack
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=py,ts,js,react,fastapi,nodejs,sqlite,vite,git,github,vscode,md&perline=12" alt="Core toolkit" />
 
 <p>
-  <img src="https://img.shields.io/badge/Agentic%20RAG-8b5cf6?style=for-the-badge" alt="Agentic RAG" />
-  <img src="https://img.shields.io/badge/Hybrid%20Retrieval-ec4899?style=for-the-badge" alt="Hybrid Retrieval" />
-  <img src="https://img.shields.io/badge/Reranking-06b6d4?style=for-the-badge" alt="Reranking" />
-  <img src="https://img.shields.io/badge/LLM%20Evaluation-f59e0b?style=for-the-badge" alt="LLM Evaluation" />
-  <img src="https://img.shields.io/badge/Streaming%20UX-10b981?style=for-the-badge" alt="Streaming UX" />
-  <img src="https://img.shields.io/badge/MCP-6366f1?style=for-the-badge" alt="MCP" />
-  <img src="https://img.shields.io/badge/ChromaDB-ef4444?style=for-the-badge" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/pytest%20%2B%20Vitest-14b8a6?style=for-the-badge" alt="pytest and Vitest" />
+  <img src="https://img.shields.io/badge/Agentic%20RAG-059669?style=for-the-badge" alt="Agentic RAG" />
+  <img src="https://img.shields.io/badge/Hybrid%20Retrieval-0d9488?style=for-the-badge" alt="Hybrid Retrieval" />
+  <img src="https://img.shields.io/badge/Reranking-0891b2?style=for-the-badge" alt="Reranking" />
+  <img src="https://img.shields.io/badge/LLM%20Evaluation-16a34a?style=for-the-badge" alt="LLM Evaluation" />
+  <img src="https://img.shields.io/badge/Streaming%20UX-0e7490?style=for-the-badge" alt="Streaming UX" />
+  <img src="https://img.shields.io/badge/MCP-15803d?style=for-the-badge" alt="MCP" />
+  <img src="https://img.shields.io/badge/ChromaDB-155e75?style=for-the-badge" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/pytest%20%2B%20Vitest-047857?style=for-the-badge" alt="pytest and Vitest" />
 </p>
 
 </div>
 
-## 🧭 Build philosophy
+## 🧭 ~/philosophy
 
 ```text
 scope before framework
@@ -83,30 +83,30 @@ failure paths are product behavior
 small experiments before large abstractions
 ```
 
-## 📊 GitHub signal
+## 📊 ~/stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=juzikuwei&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=f472b6&icon_color=67e8f9&text_color=94a3b8&ring_color=8b5cf6" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=juzikuwei&layout=compact&hide_border=true&bg_color=00000000&title_color=f472b6&text_color=94a3b8&langs_count=6" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=juzikuwei&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=00e676&icon_color=22d3ee&text_color=94a3b8&ring_color=00e676" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=juzikuwei&layout=compact&hide_border=true&bg_color=00000000&title_color=00e676&text_color=94a3b8&langs_count=6" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=juzikuwei&hide_border=true&background=00000000&ring=ec4899&fire=f472b6&currStreakLabel=67e8f9&sideLabels=a78bfa" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=juzikuwei&hide_border=true&background=00000000&ring=00e676&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=4ade80" alt="GitHub contribution streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=juzikuwei&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=juzikuwei&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juzikuwei&hide_border=true&bg_color=00000000&color=a78bfa&line=ec4899&point=67e8f9&area=true&area_color=4c1d95" alt="Contribution activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juzikuwei&hide_border=true&bg_color=00000000&color=4ade80&line=00e676&point=22d3ee&area=true&area_color=052e16" alt="Contribution activity graph" />
 </div>
 
-## 🎨 Contribution art
+## 🎨 ~/contribution-art
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
+<img src="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/profile-night-green.svg" alt="3D contribution graph" width="100%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake-dark.svg" />
@@ -116,18 +116,14 @@ small experiments before large abstractions
 
 </div>
 
-## 🤝 Connect
+## 🤝 ~/connect
 
 I share the work as it becomes real: the architecture decisions, the awkward edge cases, the evaluation gaps, and the small improvements that make an AI workflow more trustworthy.
 
 <p align="center">
-  <a href="https://github.com/juzikuwei?tab=repositories"><img src="https://img.shields.io/badge/See_all_projects-ec4899?style=for-the-badge&logo=github&logoColor=white" alt="See all projects" /></a>
-  <a href="mailto:juzidekuwei@outlook.com"><img src="https://img.shields.io/badge/Say_hello-juzidekuwei%40outlook.com-8b5cf6?style=for-the-badge&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/juzikuwei?tab=repositories"><img src="https://img.shields.io/badge/See_all_projects-059669?style=for-the-badge&logo=github&logoColor=white" alt="See all projects" /></a>
+  <a href="mailto:juzidekuwei@outlook.com"><img src="https://img.shields.io/badge/Say_hello-juzidekuwei%40outlook.com-064e3b?style=for-the-badge&logoColor=white" alt="Email" /></a>
 </p>
-
-<div align="center">
-  <img src="https://count.getloli.com/get/@juzikuwei?theme=rule34" alt="Visitor count" />
-</div>
 
 <div align="center">
 
@@ -135,4 +131,4 @@ I share the work as it becomes real: the architecture decisions, the awkward edg
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:ec4899,100:8b5cf6&height=140&section=footer&text=Thanks%20for%20visiting&fontSize=22&fontColor=ffffff&fontAlignY=72" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:064e3b,100:0d1117&height=140&section=footer&text=%3E%20EOF%20%E2%80%94%20thanks%20for%20visiting&fontSize=20&fontColor=39d353&fontAlignY=72" alt="" />
