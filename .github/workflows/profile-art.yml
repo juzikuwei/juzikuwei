@@ -1,0 +1,50 @@
+name: Generate profile art
+
+on:
+  # Refresh daily at 02:31 Beijing time (18:31 UTC)
+  schedule:
+    - cron: "31 18 * * *"
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+  # Regenerate on every push to main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#ec4899&color_dots=#ede9fe,#c4b5fd,#a78bfa,#8b5cf6,#7c3aed
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#ec4899&color_dots=#1e1b4b,#4c1d95,#7c3aed,#c026d3,#f0abfc
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect generated SVGs
+        run: |
+          mkdir -p dist
+          cp profile-3d-contrib/*.svg dist/
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
