@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:064e3b,100:0f766e&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=39d353&animation=twinkling&fontAlignY=36&desc=AI-native%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:064e3b,100:0f766e&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=39d353&animation=twinkling&fontAlignY=36&desc=AI-native%20%E2%80%A2%20Vibe%20coding%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+how+%E2%86%92+AI+writes+the+code+%E2%80%94+I+architect+and+verify;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
 </a>
 
 <p>
@@ -18,12 +18,25 @@
 
 I build AI-native applications that are **testable, observable, and grounded in evidence** — workflows that survive failure instead of only looking good in a demo.
 
+**I don't hand-write code — every line here is written by AI (Claude Code & Codex).** I own the architecture, the design decisions, and the acceptance tests. Vibe coding, held to engineering standards.
+
 - 🔭 **Now building** — [AI/Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent): hybrid retrieval (E5 + BM25 + RRF + cross-encoder), a bounded tool-calling ReAct agent, deterministic citation validation, and a read-only MCP server
 - 🧪 **Exploring** — conversation-context compaction, agent evaluation suites, claim-level groundedness
 - 🌏 **Working in** 中文 & English · UTC+8
 - 📫 **Reach me** — juzidekuwei@outlook.com
 
-> 中文简介：把 AI 产品想法做成可测试、可观测、可验证的工作流。
+> 中文简介：把 AI 产品想法做成可测试、可观测、可验证的工作流。代码全部由 AI（Claude Code、Codex、Cursor）编写——架构、技术决策与验收由我负责。
+
+## 🤖 ~/how-i-build
+
+Every line of code here is AI-written — vibe coding with Claude Code, Codex & Cursor. The split:
+
+| Mine | AI's |
+| --- | --- |
+| Architecture, scope and specs | Implementation — all of it |
+| Code review and design questions | Refactors and boilerplate |
+| Acceptance: tests, eval suites, traces | Test scaffolding |
+| Decision records and trade-offs (ADRs) | Drafts I edit and approve |
 
 ## 🚀 ~/projects
 
@@ -40,6 +53,7 @@ I build AI-native applications that are **testable, observable, and grounded in 
         <img src="https://img.shields.io/badge/RAG-0d1117?style=flat-square&logoColor=00e676" alt="RAG" />
         <img src="https://img.shields.io/badge/MCP-0d1117?style=flat-square&logoColor=00e676" alt="MCP" />
       </p>
+      <p><sub>Vibe-coded with Claude Code & Codex — human-owned architecture and acceptance.</sub></p>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/juzikuwei/focus-group-AI-Agent">
@@ -51,6 +65,7 @@ I build AI-native applications that are **testable, observable, and grounded in 
         <img src="https://img.shields.io/badge/Streaming-0d1117?style=flat-square&logoColor=00e676" alt="Streaming" />
         <img src="https://img.shields.io/badge/LLM_apps-0d1117?style=flat-square&logoColor=00e676" alt="LLM applications" />
       </p>
+      <p><sub>Vibe-coded with Claude Code & Codex — human-owned architecture and acceptance.</sub></p>
     </td>
   </tr>
 </table>
@@ -60,6 +75,13 @@ I build AI-native applications that are **testable, observable, and grounded in 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=py,ts,js,react,fastapi,nodejs,sqlite,vite,git,github,vscode,md&perline=12" alt="Core toolkit" />
+
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
+  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
+</p>
 
 <p>
   <img src="https://img.shields.io/badge/Agentic%20RAG-059669?style=for-the-badge" alt="Agentic RAG" />
@@ -81,6 +103,7 @@ scope before framework
 evidence before confidence
 failure paths are product behavior
 small experiments before large abstractions
+ai writes, i verify
 ```
 
 ## 📊 ~/stats
