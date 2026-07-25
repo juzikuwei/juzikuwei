@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:064e3b,100:0f766e&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=39d353&animation=twinkling&fontAlignY=36&desc=AI-native%20%E2%80%A2%20Vibe%20coding%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+how+%E2%86%92+AI+writes+the+code+%E2%80%94+I+architect+and+verify;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+how+%E2%86%92+AI+writes+the+code+%E2%80%94+I+architect+and+verify;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
 </a>
 
 <p>
@@ -31,50 +31,6 @@ I build AI-native applications that are **testable, observable, and grounded in 
 - 📫 **Reach me** — juzidekuwei@outlook.com
 
 > 中文简介：把 AI 产品想法做成可测试、可观测、可验证的工作流。代码全部由 AI（Claude Code、Codex、Cursor）编写——架构、技术决策与验收由我负责。
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
-
-## 🤖 ~/how-i-build
-
-Every line of code here is AI-written — vibe coding with Claude Code, Codex & Cursor. The split:
-
-| Mine | AI's |
-| --- | --- |
-| Architecture, scope and specs | Implementation — all of it |
-| Code review and design questions | Refactors and boilerplate |
-| Acceptance: tests, eval suites, traces | Test scaffolding |
-| Decision records and trade-offs (ADRs) | Drafts I edit and approve |
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
-  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
-  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
-
-## 🏗️ ~/mental-model
-
-Building an agent system is building a house:
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#39d353','primaryBorderColor':'#00e676','lineColor':'#00e676','fontFamily':'monospace'}}}%%
-flowchart LR
-    A["📐 Engineering principles<br/>load-bearing · wiring · fire code<br/>━━━<br/>the harness problem list:<br/>context · tools · state · verification"]
-    B["🏗️ Scaffolding<br/>standardized steel frame<br/>━━━<br/>LangGraph:<br/>orchestration, nothing more"]
-    C["🛋️ Interior and furniture<br/>what makes it livable<br/>━━━<br/>your own code:<br/>nodes · compaction · tool design"]
-    A --> B --> C
-```
-
-The scaffolding never decides how the rooms feel. Frameworks solve orchestration; the decisions that make an agent trustworthy have no scaffolding.
-
-Two axes, one system:
-
-- **Building** — principles × orchestration × AI pair-coding → whether it *works*
-- **Reliability** — evals, production feedback, domain correctness → whether it can be *trusted*
-
-Axis one without axis two ships demos, not systems. The code here is AI-written — the thinking is not.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
@@ -112,7 +68,39 @@ Axis one without axis two ships demos, not systems. The code here is AI-written 
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
-## 🧭 ~/philosophy
+## 🤖 ~/how-i-build
+
+Every line of code here is AI-written — vibe coding with Claude Code, Codex & Cursor. The split:
+
+| Mine | AI's |
+| --- | --- |
+| Architecture, scope and specs | Implementation — all of it |
+| Code review and design questions | Refactors and boilerplate |
+| Acceptance: tests, eval suites, traces | Test scaffolding |
+| Decision records and trade-offs (ADRs) | Drafts I edit and approve |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
+  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+
+## 🏗️ ~/mental-model
+
+Building an agent system is building a house:
+
+<div align="center">
+  <img src="assets/mental-model-house-en.svg" alt="House metaphor: engineering principles are the foundation, LangGraph is the scaffolding, your own code is the interior" width="100%" />
+</div>
+
+The scaffolding never decides how the rooms feel. Frameworks solve orchestration; the decisions that make an agent trustworthy have no scaffolding.
+
+<div align="center">
+  <img src="assets/mental-model-axes-en.svg" alt="Two axes: building on X, reliability on Y — the real work is moving from impressive demos to systems you can trust" width="100%" />
+</div>
 
 ```text
 scope before framework
@@ -121,6 +109,8 @@ failure paths are product behavior
 small experiments before large abstractions
 ai writes, i verify
 ```
+
+The code here is AI-written — the thinking is not.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 

@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:064e3b,100:0f766e&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=39d353&animation=twinkling&fontAlignY=36&desc=AI-native%20%E2%80%A2%20Vibe%20coding%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+how+%E2%86%92+AI+writes+the+code+%E2%80%94+I+architect+and+verify;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+how+%E2%86%92+AI+writes+the+code+%E2%80%94+I+architect+and+verify;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
 </a>
 
 <p>
@@ -29,50 +29,6 @@
 - 🧪 **在探索** — LangGraph、会话上下文压缩、agent 评测闭环、claim-level groundedness
 - 🌏 **工作语言** — 中文 & English · UTC+8
 - 📫 **联系我** — juzidekuwei@outlook.com
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
-
-## 🤖 ~/how-i-build
-
-这里的每一行代码都由 AI 编写——与 Claude Code、Codex 和 Cursor 一起 vibe coding。分工如下：
-
-| Mine | AI's |
-| --- | --- |
-| 架构、范围与 spec | 实现——全部代码 |
-| 代码审查与设计质询 | 重构与样板代码 |
-| 验收：测试、评测套件、Trace | 测试脚手架 |
-| 决策记录与权衡取舍（ADR） | 文档草稿，由我编辑定稿 |
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
-  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
-  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
-
-## 🏗️ ~/mental-model
-
-构建一个 agent 系统，就是在盖一栋房子：
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#39d353','primaryBorderColor':'#00e676','lineColor':'#00e676','fontFamily':'monospace'}}}%%
-flowchart LR
-    A["📐 建筑工程原理<br/>承重 · 水电 · 防火规范<br/>━━━<br/>harness 问题清单：<br/>上下文 · 工具 · 状态 · 验证"]
-    B["🏗️ 脚手架<br/>标准化钢结构<br/>━━━<br/>LangGraph：<br/>只解决编排，仅此而已"]
-    C["🛋️ 装修与家具<br/>决定房子好不好住<br/>━━━<br/>你自己的代码：<br/>节点 · 压缩策略 · 工具设计"]
-    A --> B --> C
-```
-
-脚手架从不决定房间住起来的感觉。框架解决的是编排；让 agent 值得信任的那些决策，没有现成脚手架。
-
-两条轴线，一个系统：
-
-- **构建** — 原理 × 编排 × AI 协作编码 → 决定它*能不能跑*
-- **可靠** — 评测、生产反馈、业务正确性 → 决定它*能不能被信任*
-
-只有轴一、没有轴二，交付的是 demo，不是系统。这里的代码由 AI 写——思考不是。
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
@@ -110,7 +66,39 @@ flowchart LR
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
-## 🧭 ~/philosophy
+## 🤖 ~/how-i-build
+
+这里的每一行代码都由 AI 编写——与 Claude Code、Codex 和 Cursor 一起 vibe coding。分工如下：
+
+| Mine | AI's |
+| --- | --- |
+| 架构、范围与 spec | 实现——全部代码 |
+| 代码审查与设计质询 | 重构与样板代码 |
+| 验收：测试、评测套件、Trace | 测试脚手架 |
+| 决策记录与权衡取舍（ADR） | 文档草稿，由我编辑定稿 |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
+  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+
+## 🏗️ ~/mental-model
+
+构建一个 agent 系统，就是在盖一栋房子：
+
+<div align="center">
+  <img src="assets/mental-model-house-zh.svg" alt="房子比喻：工程原理是地基，LangGraph 是脚手架，你自己的代码是室内装修" width="100%" />
+</div>
+
+脚手架从不决定房间住起来的感觉。框架解决的是编排；让 agent 值得信任的那些决策，没有现成脚手架。
+
+<div align="center">
+  <img src="assets/mental-model-axes-zh.svg" alt="两条轴线：横轴是构建能力，纵轴是可靠性——真正的功夫是从惊艳的 demo 走到可以被信任的系统" width="100%" />
+</div>
 
 ```text
 scope before framework
@@ -119,6 +107,8 @@ failure paths are product behavior
 small experiments before large abstractions
 ai writes, i verify
 ```
+
+这里的代码由 AI 写——思考不是。
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
