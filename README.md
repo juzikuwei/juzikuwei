@@ -7,8 +7,8 @@
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-00e676?style=for-the-badge" alt="当前语言：简体中文" />
-  <a href="README.en.md"><img src="https://img.shields.io/badge/English-0d1117?style=for-the-badge" alt="Switch to English" /></a>
+  <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-0d1117?style=for-the-badge" alt="切换到中文" /></a>
+  <img src="https://img.shields.io/badge/English-00e676?style=for-the-badge" alt="Current language: English" />
 </p>
 
 <p>
@@ -21,25 +21,62 @@
 
 ## 🖥️ ~/whoami
 
-我构建 AI-native 应用，要求它们**可测试、可观测、有证据支撑**——是能在失败里活下来的工作流，而不是只在 demo 里好看的东西。
+I build AI-native applications that are **testable, observable, and grounded in evidence** — workflows that survive failure instead of only looking good in a demo.
 
-**我不手写代码——这里的每一行代码都由 AI（Claude Code 和 Codex）编写。** 架构设计、技术决策和验收测试由我负责。Vibe coding，按工程标准交付。
+**I don't hand-write code — every line here is written by AI (Claude Code & Codex).** I own the architecture, the design decisions, and the acceptance tests. Vibe coding, held to engineering standards.
 
-- 🔭 **正在做** — [AI/Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent)：混合检索（E5 + BM25 + RRF + cross-encoder）、有界 tool-calling ReAct agent、确定性引用校验、只读 MCP server
-- 🧪 **在探索** — 会话上下文压缩、agent 评测套件、claim-level groundedness
-- 🌏 **工作语言** — 中文 & English · UTC+8
-- 📫 **联系我** — juzidekuwei@outlook.com
+- 🔭 **Now building** — [AI/Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent): hybrid retrieval (E5 + BM25 + RRF + cross-encoder), a bounded tool-calling ReAct agent, deterministic citation validation, and a read-only MCP server
+- 🧪 **Exploring** — LangGraph, conversation-context compaction, agent evaluation loops, claim-level groundedness
+- 🌏 **Working in** 中文 & English · UTC+8
+- 📫 **Reach me** — juzidekuwei@outlook.com
+
+> 中文简介：把 AI 产品想法做成可测试、可观测、可验证的工作流。代码全部由 AI（Claude Code、Codex、Cursor）编写——架构、技术决策与验收由我负责。
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
 ## 🤖 ~/how-i-build
 
-这里的每一行代码都由 AI 编写——与 Claude Code、Codex 和 Cursor 一起 vibe coding。分工如下：
+Every line of code here is AI-written — vibe coding with Claude Code, Codex & Cursor. The split:
 
 | Mine | AI's |
 | --- | --- |
-| 架构、范围与 spec | 实现——全部代码 |
-| 代码审查与设计质询 | 重构与样板代码 |
-| 验收：测试、评测套件、Trace | 测试脚手架 |
-| 决策记录与权衡取舍（ADR） | 文档草稿，由我编辑定稿 |
+| Architecture, scope and specs | Implementation — all of it |
+| Code review and design questions | Refactors and boilerplate |
+| Acceptance: tests, eval suites, traces | Test scaffolding |
+| Decision records and trade-offs (ADRs) | Drafts I edit and approve |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
+  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+
+## 🏗️ ~/mental-model
+
+Building an agent system is building a house:
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#39d353','primaryBorderColor':'#00e676','lineColor':'#00e676','fontFamily':'monospace'}}}%%
+flowchart LR
+    A["📐 Engineering principles<br/>load-bearing · wiring · fire code<br/>━━━<br/>the harness problem list:<br/>context · tools · state · verification"]
+    B["🏗️ Scaffolding<br/>standardized steel frame<br/>━━━<br/>LangGraph:<br/>orchestration, nothing more"]
+    C["🛋️ Interior and furniture<br/>what makes it livable<br/>━━━<br/>your own code:<br/>nodes · compaction · tool design"]
+    A --> B --> C
+```
+
+The scaffolding never decides how the rooms feel. Frameworks solve orchestration; the decisions that make an agent trustworthy have no scaffolding.
+
+Two axes, one system:
+
+- **Building** — principles × orchestration × AI pair-coding → whether it *works*
+- **Reliability** — evals, production feedback, domain correctness → whether it can be *trusted*
+
+Axis one without axis two ships demos, not systems. The code here is AI-written — the thinking is not.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
 ## 🚀 ~/projects
 
@@ -73,31 +110,7 @@
   </tr>
 </table>
 
-## 🧰 ~/stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,ts,js,react,fastapi,nodejs,sqlite,vite,git,github,vscode,md&perline=12" alt="Core toolkit" />
-
-<p>
-  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
-  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
-  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Agentic%20RAG-059669?style=for-the-badge" alt="Agentic RAG" />
-  <img src="https://img.shields.io/badge/Hybrid%20Retrieval-0d9488?style=for-the-badge" alt="Hybrid Retrieval" />
-  <img src="https://img.shields.io/badge/Reranking-0891b2?style=for-the-badge" alt="Reranking" />
-  <img src="https://img.shields.io/badge/LLM%20Evaluation-16a34a?style=for-the-badge" alt="LLM Evaluation" />
-  <img src="https://img.shields.io/badge/Streaming%20UX-0e7490?style=for-the-badge" alt="Streaming UX" />
-  <img src="https://img.shields.io/badge/MCP-15803d?style=for-the-badge" alt="MCP" />
-  <img src="https://img.shields.io/badge/ChromaDB-155e75?style=for-the-badge" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/pytest%20%2B%20Vitest-047857?style=for-the-badge" alt="pytest and Vitest" />
-</p>
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
 ## 🧭 ~/philosophy
 
@@ -108,6 +121,8 @@ failure paths are product behavior
 small experiments before large abstractions
 ai writes, i verify
 ```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
 ## 📊 ~/stats
 
@@ -121,12 +136,10 @@ ai writes, i verify
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=juzikuwei&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=juzikuwei&theme=matrix&no-frame=true&no-bg=true&column=4&row=1&margin-w=6&margin-h=6" alt="GitHub trophies" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=juzikuwei&hide_border=true&bg_color=00000000&color=4ade80&line=00e676&point=22d3ee&area=true&area_color=052e16" alt="Contribution activity graph" />
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
 ## 🎨 ~/contribution-art
 
@@ -142,9 +155,11 @@ ai writes, i verify
 
 </div>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+
 ## 🤝 ~/connect
 
-我边做边分享真实过程：架构决策、别扭的边界情况、评测里的缺口，以及每一个让 AI 工作流更可信的小改进。
+I share the work as it becomes real: the architecture decisions, the awkward edge cases, the evaluation gaps, and the small improvements that make an AI workflow more trustworthy.
 
 <p align="center">
   <a href="https://github.com/juzikuwei?tab=repositories"><img src="https://img.shields.io/badge/See_all_projects-059669?style=for-the-badge&logo=github&logoColor=white" alt="See all projects" /></a>
@@ -153,7 +168,7 @@ ai writes, i verify
 
 <div align="center">
 
-<sub>公开地构建——一次一个可度量的工作流。</sub>
+<sub>Building in public, one measurable workflow at a time.</sub>
 
 </div>
 
