@@ -7,8 +7,8 @@
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-00e676?style=for-the-badge" alt="当前语言：简体中文" />
-  <a href="README.md"><img src="https://img.shields.io/badge/English-0d1117?style=for-the-badge" alt="Switch to English" /></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-0d1117?style=for-the-badge" alt="切换到中文" /></a>
+  <img src="https://img.shields.io/badge/English-00e676?style=for-the-badge" alt="Current language: English" />
 </p>
 
 <p>
@@ -21,14 +21,16 @@
 
 ## 🖥️ ~/whoami
 
-我构建 AI-native 应用，要求它们**可测试、可观测、有证据支撑**——是能在失败里活下来的工作流，而不是只在 demo 里好看的东西。
+I build AI-native applications that are **testable, observable, and grounded in evidence** — workflows that survive failure instead of only looking good in a demo.
 
-**我不手写代码——这里的每一行代码都由 AI（Claude Code 和 Codex）编写。** 架构设计、技术决策和验收测试由我负责。Vibe coding，按工程标准交付。
+**I don't hand-write code — every line here is written by AI (Claude Code & Codex).** I own the architecture, the design decisions, and the acceptance tests. Vibe coding, held to engineering standards.
 
-- 🔭 **正在做** — [AI/Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent)：混合检索（E5 + BM25 + RRF + cross-encoder）、有界 tool-calling ReAct agent、确定性引用校验、只读 MCP server
-- 🧪 **在探索** — LangGraph、会话上下文压缩、agent 评测闭环、claim-level groundedness
-- 🌏 **工作语言** — 中文 & English · UTC+8
-- 📫 **联系我** — juzidekuwei@outlook.com
+- 🔭 **Now building** — [AI/Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent): hybrid retrieval (E5 + BM25 + RRF + cross-encoder), a bounded tool-calling ReAct agent, deterministic citation validation, and a read-only MCP server
+- 🧪 **Exploring** — LangGraph, conversation-context compaction, agent evaluation loops, claim-level groundedness
+- 🌏 **Working in** 中文 & English · UTC+8
+- 📫 **Reach me** — juzidekuwei@outlook.com
+
+> 中文简介：把 AI 产品想法做成可测试、可观测、可验证的工作流。代码全部由 AI（Claude Code、Codex、Cursor）编写——架构、技术决策与验收由我负责。
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
@@ -68,14 +70,14 @@
 
 ## 🤖 ~/how-i-build
 
-这里的每一行代码都由 AI 编写——与 Claude Code、Codex 和 Cursor 一起 vibe coding。分工如下：
+Every line of code here is AI-written — vibe coding with Claude Code, Codex & Cursor. The split:
 
 | Mine | AI's |
 | --- | --- |
-| 架构、范围与 spec | 实现——全部代码 |
-| 代码审查与设计质询 | 重构与样板代码 |
-| 验收：测试、评测套件、Trace | 测试脚手架 |
-| 决策记录与权衡取舍（ADR） | 文档草稿，由我编辑定稿 |
+| Architecture, scope and specs | Implementation — all of it |
+| Code review and design questions | Refactors and boilerplate |
+| Acceptance: tests, eval suites, traces | Test scaffolding |
+| Decision records and trade-offs (ADRs) | Drafts I edit and approve |
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
@@ -88,16 +90,16 @@
 
 ## 🏗️ ~/mental-model
 
-构建一个 agent 系统，就是在盖一栋房子：
+Building an agent system is building a house:
 
 <div align="center">
-  <img src="assets/mental-model-house-zh.svg" alt="房子比喻：工程原理是地基，LangGraph 是脚手架，你自己的代码是室内装修" width="100%" />
+  <img src="assets/mental-model-house-en.svg" alt="House metaphor: engineering principles are the foundation, LangGraph is the scaffolding, your own code is the interior" width="100%" />
 </div>
 
-脚手架从不决定房间住起来的感觉。框架解决的是编排；让 agent 值得信任的那些决策，没有现成脚手架。
+The scaffolding never decides how the rooms feel. Frameworks solve orchestration; the decisions that make an agent trustworthy have no scaffolding.
 
 <div align="center">
-  <img src="assets/mental-model-axes-zh.svg" alt="两条轴线：横轴是构建能力，纵轴是可靠性——真正的功夫是从惊艳的 demo 走到可以被信任的系统" width="100%" />
+  <img src="assets/mental-model-axes-en.svg" alt="Two axes: building on X, reliability on Y — the real work is moving from impressive demos to systems you can trust" width="100%" />
 </div>
 
 ```text
@@ -108,7 +110,7 @@ small experiments before large abstractions
 ai writes, i verify
 ```
 
-这里的代码由 AI 写——思考不是。
+The code here is AI-written — the thinking is not.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
 
@@ -147,7 +149,7 @@ ai writes, i verify
 
 ## 🤝 ~/connect
 
-我边做边分享真实过程：架构决策、别扭的边界情况、评测里的缺口，以及每一个让 AI 工作流更可信的小改进。
+I share the work as it becomes real: the architecture decisions, the awkward edge cases, the evaluation gaps, and the small improvements that make an AI workflow more trustworthy.
 
 <p align="center">
   <a href="https://github.com/juzikuwei?tab=repositories"><img src="https://img.shields.io/badge/See_all_projects-059669?style=for-the-badge&logo=github&logoColor=white" alt="See all projects" /></a>
@@ -156,7 +158,7 @@ ai writes, i verify
 
 <div align="center">
 
-<sub>公开地构建——一次一个可度量的工作流。</sub>
+<sub>Building in public, one measurable workflow at a time.</sub>
 
 </div>
 
