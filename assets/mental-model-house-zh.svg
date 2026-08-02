@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Microsoft YaHei',monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Noto Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Source Han Sans SC',sans-serif">
+  <title>房子比喻：工程原理是地基，LangGraph 是脚手架，你自己的代码是室内装修</title>
   <defs>
     <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse">
       <path d="M0,10 L10,0" stroke="#00e676" stroke-width="1" opacity="0.3"/>
     </pattern>
   </defs>
-  <rect x="1" y="1" width="878" height="428" rx="14" fill="#0d1117" stroke="#00e676" stroke-opacity="0.25"/>
+  <rect x="1" y="1" width="658" height="428" rx="14" fill="#0d1117" stroke="#00e676" stroke-opacity="0.25"/>
   <text x="28" y="40" fill="#00e676" font-size="15">$ cat mental-model/house</text>
   <rect x="252" y="27" width="9" height="17" fill="#00e676">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
@@ -14,19 +15,9 @@
   <rect x="90" y="168" width="200" height="170" fill="none" stroke="#00e676" stroke-width="2"/>
   <line x1="90" y1="252" x2="290" y2="252" stroke="#00e676" stroke-width="1.5" opacity="0.6"/>
 
-  <rect x="112" y="224" width="48" height="17" rx="5" fill="#064e3b" stroke="#00e676" stroke-width="1"/>
-  <rect x="106" y="212" width="10" height="29" rx="3" fill="#064e3b" stroke="#00e676" stroke-width="1"/>
-  <line x1="248" y1="204" x2="248" y2="241" stroke="#00e676" stroke-width="1.5"/>
-  <circle cx="248" cy="198" r="8" fill="#064e3b" stroke="#00e676" stroke-width="1.2"/>
-  <rect x="182" y="190" width="30" height="24" fill="none" stroke="#00e676" stroke-width="1" opacity="0.5"/>
-  <line x1="197" y1="190" x2="197" y2="214" stroke="#00e676" stroke-width="1" opacity="0.5"/>
-  <line x1="182" y1="202" x2="212" y2="202" stroke="#00e676" stroke-width="1" opacity="0.5"/>
-
   <rect x="118" y="258" width="9" height="74" fill="#064e3b" stroke="#00e676" stroke-width="1"/>
   <rect x="186" y="258" width="9" height="74" fill="#064e3b" stroke="#00e676" stroke-width="1"/>
   <rect x="254" y="258" width="9" height="74" fill="#064e3b" stroke="#00e676" stroke-width="1"/>
-  <line x1="104" y1="262" x2="276" y2="328" stroke="#00e676" stroke-width="1" opacity="0.35" stroke-dasharray="5 4"/>
-  <line x1="276" y1="262" x2="104" y2="328" stroke="#00e676" stroke-width="1" opacity="0.35" stroke-dasharray="5 4"/>
 
   <rect x="70" y="338" width="240" height="34" fill="#052e16" stroke="#00e676" stroke-width="1.5"/>
   <rect x="70" y="338" width="240" height="34" fill="url(#hatch)"/>
@@ -38,16 +29,28 @@
   <circle cx="312" cy="355" r="3" fill="#00e676"/>
   <line x1="312" y1="355" x2="360" y2="382" stroke="#00e676" stroke-width="1" opacity="0.45"/>
 
-  <text x="374" y="192" fill="#39d353" font-size="17" font-weight="700">🛋️  装修与家具</text>
-  <text x="374" y="216" fill="#00e676" font-size="15">= 你自己的代码</text>
-  <text x="374" y="238" fill="#94a3b8" font-size="13.5">节点 · 压缩策略 · 工具设计</text>
-  <text x="374" y="258" fill="#94a3b8" font-size="12.5" opacity="0.75" font-style="italic">决定房子好不好住</text>
+  <g transform="translate(374,178)" stroke="#39d353" fill="none" stroke-linecap="round">
+    <rect x="0" y="4" width="18" height="9" rx="2" fill="#064e3b" stroke-width="1.4"/>
+    <path d="M2.5,4 L2.5,0.5 M15.5,4 L15.5,0.5" stroke-width="1.4"/>
+  </g>
+  <text x="402" y="192" fill="#39d353" font-size="17" font-weight="700">装修与家具</text>
+  <text x="402" y="216" fill="#00e676" font-size="15">= 你自己的代码</text>
+  <text x="402" y="238" fill="#94a3b8" font-size="13.5">节点 · 压缩策略 · 工具设计</text>
+  <text x="402" y="258" fill="#94a3b8" font-size="12.5" opacity="0.75" font-style="italic">决定房子好不好住</text>
 
-  <text x="374" y="296" fill="#39d353" font-size="17" font-weight="700">🏗️  脚手架</text>
-  <text x="374" y="320" fill="#00e676" font-size="15">= LangGraph</text>
-  <text x="374" y="342" fill="#94a3b8" font-size="13.5">只解决编排，仅此而已</text>
+  <g transform="translate(374,282)" stroke="#39d353" fill="none">
+    <rect x="0" y="0" width="18" height="14" stroke-width="1.4"/>
+    <path d="M9,0 L9,14 M0,7 L18,7" stroke-width="1" opacity="0.8"/>
+  </g>
+  <text x="402" y="296" fill="#39d353" font-size="17" font-weight="700">脚手架</text>
+  <text x="402" y="320" fill="#00e676" font-size="15">= LangGraph</text>
+  <text x="402" y="342" fill="#94a3b8" font-size="13.5">只解决编排，仅此而已</text>
 
-  <text x="374" y="378" fill="#39d353" font-size="17" font-weight="700">📐  建筑工程原理</text>
-  <text x="374" y="400" fill="#00e676" font-size="15">= harness 问题清单</text>
-  <text x="374" y="420" fill="#94a3b8" font-size="13.5">上下文 · 工具 · 状态 · 验证</text>
+  <g transform="translate(374,364)" stroke="#39d353" fill="none" stroke-linejoin="round">
+    <path d="M0,14 L0,0 L14,14 Z" stroke-width="1.4"/>
+    <path d="M0,9 L5,14" stroke-width="1" opacity="0.8"/>
+  </g>
+  <text x="402" y="378" fill="#39d353" font-size="17" font-weight="700">建筑工程原理</text>
+  <text x="402" y="400" fill="#00e676" font-size="15">= harness 问题清单</text>
+  <text x="402" y="420" fill="#94a3b8" font-size="13.5">上下文 · 工具 · 状态 · 验证</text>
 </svg>

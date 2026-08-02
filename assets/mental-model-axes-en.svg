@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Noto Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Source Han Sans SC',sans-serif">
+  <title>Two axes: building on X, reliability on Y — the real work is moving from impressive demos to systems you can trust</title>
   <defs>
     <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.3" fill="#00e676" opacity="0.10"/>
