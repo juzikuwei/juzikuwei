@@ -1,63 +1,49 @@
-<div align="center">
+<p align="center">
+  <img src="assets/profile-header.svg" width="100%" alt="我是 juzikuwei，和 AI 一起构建应用。把好奇心做成可以运行的东西，关注检索、Agent 与证据。" />
+</p>
 
-<img src="assets/profile-header.svg" width="100%" alt="juzikuwei · AI 应用构建者 · 从想法到工作流，再到验证" />
+<p align="center">
+  <strong>简体中文</strong> &nbsp; / &nbsp; <a href="README.en.md">English</a>
+  &nbsp; · &nbsp; <a href="https://github.com/juzikuwei?tab=repositories">项目仓库</a>
+  &nbsp; · &nbsp; <a href="mailto:juzidekuwei@outlook.com">来聊聊 ↗</a>
+</p>
 
-**把 AI 产品想法，做成可测试、可观测、有证据支撑的工作流。**
+<br>
 
-简体中文 · [English](README.en.md) · [所有项目](https://github.com/juzikuwei?tab=repositories) · [联系我](mailto:juzidekuwei@outlook.com)
+### 工作台上的两个实验
 
-</div>
+一个探索「答案从哪里来」，一个探索「想法还能怎样看」。
 
-## 你好，我是 juzikuwei
+<a href="https://github.com/juzikuwei/tech-radar-agent">
+  <img src="assets/project-radar-zh.svg" width="100%" alt="Tech Radar：让回答带着证据回来。混合检索、有界工具调用、引用校验。点击进入项目。" />
+</a>
 
-我关注 **RAG、Agent 与评测**，喜欢把检索、工具调用和用户交互串成完整的应用。比起一次成功的输出，我更关心答案有没有依据、失败能不能定位、改动能不能验证。
+**[AI / Agent Tech Radar ↗](https://github.com/juzikuwei/tech-radar-agent)** &nbsp; 面向 AI 技术资料的研究助手。结合语义检索、BM25 与重排，提供可追溯的引用和只读 MCP 服务。
 
-我使用 Claude Code、Codex 和 Cursor 进行 AI 辅助开发：代码由 AI 编写，产品范围、架构取舍、审查与验收由我负责。
+<br>
 
-## 代表项目
+<a href="https://github.com/juzikuwei/focus-group-AI-Agent">
+  <img src="assets/project-focus-zh.svg" width="100%" alt="Focus Lab：让一个想法遇见不同的声音。虚拟受访者、多轮访谈、洞察报告。点击进入项目。" />
+</a>
 
-### [AI / Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent)
+**[Focus Lab · 虚拟焦点小组 ↗](https://github.com/juzikuwei/focus-group-AI-Agent)** &nbsp; 从产品概念生成受访者画像、访谈和报告；支持多模型接口，草稿与结果保存在浏览器本地。
 
-**面向 AI 技术资料的研究助手，让回答可以追溯到检索证据。**
+<br>
 
-- 混合检索：结合语义检索与 BM25，使用 RRF 融合与 cross-encoder 重排。
-- 有界 ReAct 工具调用、确定性引用校验，以及只读 MCP 服务。
-- FastAPI + React 聊天界面，串起检索、回答与证据查看。
+### 工具可以生成，判断需要参与
 
-`Python` · `FastAPI` · `React` · `RAG` · `MCP`
+<img src="assets/build-process-zh.svg" width="100%" alt="AI 编写，我来验证：先定义目标、范围与边界，再设计数据、工具和失败路径，最后通过测试、评测与 Trace 验证结果。" />
 
-[查看代码与使用说明 →](https://github.com/juzikuwei/tech-radar-agent#readme)
+我用 **Claude Code / Codex / Cursor** 编写代码，自己负责产品范围、架构取舍、审查与验收。比起一次漂亮的输出，我更关心下一次失败时，能否找到原因。
 
-### [Focus Lab · 虚拟焦点小组](https://github.com/juzikuwei/focus-group-AI-Agent)
-
-**从产品概念出发，生成虚拟受访者、多轮访谈与结构化洞察报告。**
-
-- 串联受访者画像、主持提纲、访谈与报告，支持逐轮推进。
-- 支持多种模型接口与可选的联网资料增强。
-- 项目草稿和报告保存在浏览器本地，便于恢复与继续探索。
-
-`JavaScript` · `Python` · `FastAPI` · `LangChain`
-
-[查看代码与使用说明 →](https://github.com/juzikuwei/focus-group-AI-Agent#readme)
-
-## 我怎样构建
-
-| 环节 | 我关注的事 |
-| --- | --- |
-| 定义问题 | 先明确用户目标、范围和验收标准 |
-| 设计工作流 | 让数据、证据、工具权限与失败路径清晰可见 |
-| 与 AI 协作 | 用具体约束推进实现，审查关键改动与技术取舍 |
-| 验证结果 | 用测试、评测与 Trace 检查行为，再迭代 |
-
-**正在探索：** 会话上下文压缩、Agent 评测闭环、回答中每项结论的证据支持程度。
+> **手边的研究笔记** &nbsp; 会话上下文压缩 · Agent 评测闭环 · 每项结论的证据支持程度
 
 <details>
-<summary>展开我的构建理念：地基、脚手架与可靠性</summary>
+<summary>翻开笔记：关于地基、脚手架和可靠性</summary>
 
 构建 Agent 系统像盖房子：工程原理是地基，框架是脚手架，具体的产品行为需要自己设计。
 
 <img src="assets/mental-model-house-zh.svg" width="100%" alt="工程原理、框架和应用设计的房屋比喻" />
-
 <img src="assets/mental-model-axes-zh.svg" width="100%" alt="构建能力与可靠性是需要共同提升的两个维度" />
 
 先明确范围，再选择框架；先检查证据，再形成结论。把失败路径当作产品行为的一部分，用小实验验证大的设计决定。
@@ -65,7 +51,7 @@
 </details>
 
 <details>
-<summary>展开贡献轨迹</summary>
+<summary>看看最近留下的足迹</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake-dark.svg" />
@@ -74,6 +60,11 @@
 
 </details>
 
+<br>
+
 ---
 
-欢迎交流 AI 应用、检索与 Agent 工程。**[juzidekuwei@outlook.com](mailto:juzidekuwei@outlook.com)** · 中文 / English · UTC+8
+<p align="center">
+  <em>Stay curious. Build something real.</em><br><br>
+  <a href="mailto:juzidekuwei@outlook.com">juzidekuwei@outlook.com</a> &nbsp; · &nbsp; 中文 / English &nbsp; · &nbsp; UTC+8
+</p>

@@ -1,19 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-  <title id="title">Juzikuwei — AI application builder</title>
-  <desc id="desc">Ideas to workflows to evidence. RAG, agents, and evaluation.</desc>
-  <rect width="1200" height="280" rx="16" fill="#f4efe7"/>
-  <path d="M48 48V232" stroke="#b86649" stroke-width="4"/>
-  <g font-family="Segoe UI,Arial,sans-serif">
-    <text x="80" y="70" fill="#b86649" font-size="15" letter-spacing="3">AI APPLICATION BUILDER</text>
-    <text x="76" y="139" fill="#302923" font-size="60" font-weight="400" font-family="Georgia,Times New Roman,serif">juzikuwei</text>
-    <text x="80" y="185" fill="#62584f" font-size="23">Ideas → workflows → evidence.</text>
-    <text x="80" y="230" fill="#b86649" font-size="16" letter-spacing="2">RAG / AGENTS / EVALUATION / MCP</text>
-  </g>
-  <g fill="none" stroke="#b86649" stroke-width="2">
-    <rect x="862" y="67" width="54" height="54" rx="8"/>
-    <path d="M916 94H1010V180H1060M889 121V180H970"/>
-    <circle cx="994" cy="180" r="24"/>
-    <rect x="1060" y="153" width="54" height="54" rx="8"/>
-    <path d="m1075 179 9 9 17-20"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="494" viewBox="0 0 1000 494" role="img" aria-labelledby="title">
+<title id="title">橘子的 AI 工作台：把好奇心做成可以运行的东西</title>
+<rect width="1000" height="494" rx="8" fill="#f6f1e8"/>
+<text x="42" y="48" fill="#77665a" font-family="Consolas,monospace" font-size="15" letter-spacing="1.5">JUZIKUWEI  /  PERSONAL WORKSHOP</text><text x="958" y="48" fill="#77665a" font-family="Consolas,monospace" font-size="14" text-anchor="end">中文 / EN</text><path d="M42 69H958" stroke="#d9cbb9"/><text x="40" y="154" fill="#332b27" font-family="Georgia,Times New Roman,serif" font-size="48" >A little curiosity.</text><text x="40" y="215" fill="#b75d40" font-family="Georgia,Times New Roman,serif" font-size="48" font-style="italic">A working idea.</text><text x="43" y="265" fill="#332b27" font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="22" >把好奇心，做成可以运行的东西。</text><text x="43" y="306" fill="#77665a" font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="17" >我是 juzikuwei，和 AI 一起构建应用。</text><text x="43" y="334" fill="#77665a" font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="17" >关注检索、Agent，以及答案背后的证据。</text><g stroke="#b75d40" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M743 148 C697 115 621 146 608 217 C590 311 651 354 719 346 C789 343 826 285 811 218 C801 169 771 149 743 148Z" fill="#e4a17e"/>
+<path d="M719 156 C724 130 741 117 753 112" fill="none"/>
+<path d="M729 135 C723 100 678 91 660 102 C680 130 704 143 729 135Z" fill="#d9c9ad" stroke="#857057"/>
+<path d="M672 108 Q708 114 729 135" fill="none" stroke="#857057"/>
+<path d="M631 192 Q614 231 626 265 M637 283 l3 7 M775 191 l4 6 M784 207 l3 7" fill="none" opacity=".65"/>
+<path d="M697 163 q16 -11 28 -3" fill="none"/>
+</g><g transform="translate(804 315) rotate(-18)">
+<path d="M-83 0 A83 83 0 0 0 83 0Z" fill="#b75d40"/>
+<path d="M-74 4 A74 70 0 0 0 74 4Z" fill="#f6e4ca"/>
+<g fill="#d88761" stroke="#f6e4ca" stroke-width="4">
+<path d="M-65 10 L-12 10 L-49 48 Q-64 30 -65 10Z"/>
+<path d="M-4 14 L-43 54 Q-24 69 -5 69Z"/>
+<path d="M5 14 L5 69 Q28 68 45 53Z"/>
+<path d="M14 10 L65 10 Q64 32 51 47Z"/>
+</g></g><g fill="none" stroke="#857057" stroke-width="1.4"><path d="M789 127 Q851 104 864 142"/><path d="m858 135 6 9 4-12"/><path d="M596 281 Q564 299 577 351"/><path d="m570 342 7 11 5-12"/></g><text x="809" y="93" fill="#77665a" font-family="Georgia,Times New Roman,serif" font-size="18" font-style="italic" transform="rotate(7 809 93)">stay curious</text><text x="590" y="392" fill="#77665a" font-family="Georgia,Times New Roman,serif" font-size="20" font-style="italic" transform="rotate(-4 590 392)">ideas need roots.</text><g transform="translate(864 207) rotate(8)"><rect width="91" height="66" fill="#ede2cf"/><path d="M14 19H74M14 31H60M14 43H68" stroke="#bda98e"/><path d="m62 44 6 6 12-17" stroke="#b75d40" stroke-width="2" fill="none"/></g><path d="M42 427H958" stroke="#d9cbb9"/><text x="43" y="464" fill="#332b27" font-family="Consolas,monospace" font-size="15" >AI WRITES. I QUESTION, SHAPE &amp; VERIFY.</text><text x="958" y="464" fill="#77665a" font-family="Consolas,monospace" font-size="14" text-anchor="end">RAG · AGENTS · EVALS</text>
 </svg>

@@ -1,71 +1,57 @@
-<div align="center">
+<p align="center">
+  <img src="assets/profile-header-en.svg" width="100%" alt="I'm juzikuwei. I build applications with AI: retrieval, agents, and the evidence behind answers. Turning curiosity into things that work." />
+</p>
 
-<img src="assets/profile-header.svg" width="100%" alt="juzikuwei · AI application builder · Ideas to workflows to evidence" />
+<p align="center">
+  <a href="README.md">简体中文</a> &nbsp; / &nbsp; <strong>English</strong>
+  &nbsp; · &nbsp; <a href="https://github.com/juzikuwei?tab=repositories">Repositories</a>
+  &nbsp; · &nbsp; <a href="mailto:juzidekuwei@outlook.com">Say hello ↗</a>
+</p>
 
-**Turning AI product ideas into testable, observable workflows grounded in evidence.**
+<br>
 
-[简体中文](README.md) · English · [All projects](https://github.com/juzikuwei?tab=repositories) · [Get in touch](mailto:juzidekuwei@outlook.com)
+### Two experiments on the workbench
 
-</div>
+One asks where an answer comes from. The other explores how an idea looks from different perspectives.
 
-## Hi, I'm juzikuwei
+<a href="https://github.com/juzikuwei/tech-radar-agent">
+  <img src="assets/project-radar-en.svg" width="100%" alt="Tech Radar: answers that bring their sources. Hybrid retrieval, bounded agents, and citations. Open the project." />
+</a>
 
-I build applications around **RAG, agents, and evaluation**, connecting retrieval, tool use, and user interaction. I care about where an answer comes from, how failures can be diagnosed, and how changes can be verified.
+**[AI / Agent Tech Radar ↗](https://github.com/juzikuwei/tech-radar-agent)** &nbsp; A research assistant for AI technical material. Semantic retrieval, BM25, and reranking connect answers to evidence, with citation validation and a read-only MCP service.
 
-I build with Claude Code, Codex, and Cursor. AI writes the code; I own product scope, architecture decisions, review, and acceptance.
+<br>
 
-## Selected projects
+<a href="https://github.com/juzikuwei/focus-group-AI-Agent">
+  <img src="assets/project-focus-en.svg" width="100%" alt="Focus Lab: one idea, different perspectives. Virtual participants, interviews, and insights. Open the project." />
+</a>
 
-### [AI / Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent)
+**[Focus Lab · Virtual focus groups ↗](https://github.com/juzikuwei/focus-group-AI-Agent)** &nbsp; Turn a product concept into participant profiles, interviews, and reports. Supports multiple model interfaces, with drafts and results stored in the browser.
 
-**A research assistant for AI technical material, with answers traceable to retrieved evidence.**
+<br>
 
-- Hybrid semantic and BM25 retrieval, RRF fusion, and cross-encoder reranking.
-- Bounded ReAct tool use, deterministic citation validation, and a read-only MCP server.
-- A FastAPI + React chat interface connecting retrieval, answers, and evidence.
+### Tools generate. Judgment takes participation.
 
-`Python` · `FastAPI` · `React` · `RAG` · `MCP`
+<img src="assets/build-process-en.svg" width="100%" alt="AI writes. I verify: define goals, scope, and boundaries; design data, tools, and failure paths; verify with tests, evaluations, and traces." />
 
-[Explore the code and setup →](https://github.com/juzikuwei/tech-radar-agent#readme)
+I write code with **Claude Code / Codex / Cursor** and own product scope, architecture decisions, review, and acceptance. I care about whether the next failure can be understood as much as whether the current output looks good.
 
-### [Focus Lab · Virtual focus groups](https://github.com/juzikuwei/focus-group-AI-Agent)
-
-**Turn a product concept into virtual participant profiles, interviews, and structured insight reports.**
-
-- Connect participant generation, moderator outlines, interviews, and reports, with round-by-round control.
-- Support multiple model interfaces and optional web research.
-- Keep drafts and reports in browser storage to resume and explore later.
-
-`JavaScript` · `Python` · `FastAPI` · `LangChain`
-
-[Explore the code and setup →](https://github.com/juzikuwei/focus-group-AI-Agent#readme)
-
-## How I build
-
-| Stage | What I focus on |
-| --- | --- |
-| Define the problem | User goals, scope, and acceptance criteria |
-| Design the workflow | Explicit data flow, evidence, tool permissions, and failure paths |
-| Collaborate with AI | Concrete constraints, review of critical changes, and deliberate trade-offs |
-| Verify the result | Tests, evaluations, and traces that guide the next iteration |
-
-**Exploring:** conversation-context compaction, agent evaluation loops, and claim-level evidence support.
+> **Notes on my desk** &nbsp; Context compaction · Agent evaluation loops · Claim-level evidence support
 
 <details>
-<summary>More on foundations, scaffolding, and reliability</summary>
+<summary>Open the notebook: foundations, scaffolding, and reliability</summary>
 
 Building an agent system is like building a house: engineering principles form the foundation, frameworks provide scaffolding, and product behavior needs deliberate design.
 
 <img src="assets/mental-model-house-en.svg" width="100%" alt="House metaphor for engineering principles, frameworks, and application design" />
-
 <img src="assets/mental-model-axes-en.svg" width="100%" alt="Building capability and reliability are two dimensions to improve together" />
 
-Define scope before choosing frameworks. Check evidence before drawing conclusions. Treat failure paths as product behavior, and validate large design decisions with small experiments.
+Define scope before choosing frameworks. Check evidence before drawing conclusions. Treat failure paths as product behavior, and validate large decisions with small experiments.
 
 </details>
 
 <details>
-<summary>Contribution activity</summary>
+<summary>A few recent footprints</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake-dark.svg" />
@@ -74,6 +60,11 @@ Define scope before choosing frameworks. Check evidence before drawing conclusio
 
 </details>
 
+<br>
+
 ---
 
-Let's talk about AI applications, retrieval, and agent engineering. **[juzidekuwei@outlook.com](mailto:juzidekuwei@outlook.com)** · 中文 / English · UTC+8
+<p align="center">
+  <em>Stay curious. Build something real.</em><br><br>
+  <a href="mailto:juzidekuwei@outlook.com">juzidekuwei@outlook.com</a> &nbsp; · &nbsp; 中文 / English &nbsp; · &nbsp; UTC+8
+</p>
