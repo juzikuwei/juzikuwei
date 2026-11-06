@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Juzikuwei — AI application builder</title>
+  <desc id="desc">Ideas to workflows to evidence. RAG, agents, and evaluation.</desc>
+  <rect width="1200" height="280" rx="16" fill="#f4efe7"/>
+  <path d="M48 48V232" stroke="#b86649" stroke-width="4"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="80" y="70" fill="#b86649" font-size="15" letter-spacing="3">AI APPLICATION BUILDER</text>
+    <text x="76" y="139" fill="#302923" font-size="60" font-weight="400" font-family="Georgia,Times New Roman,serif">juzikuwei</text>
+    <text x="80" y="185" fill="#62584f" font-size="23">Ideas → workflows → evidence.</text>
+    <text x="80" y="230" fill="#b86649" font-size="16" letter-spacing="2">RAG / AGENTS / EVALUATION / MCP</text>
+  </g>
+  <g fill="none" stroke="#b86649" stroke-width="2">
+    <rect x="862" y="67" width="54" height="54" rx="8"/>
+    <path d="M916 94H1010V180H1060M889 121V180H970"/>
+    <circle cx="994" cy="180" r="24"/>
+    <rect x="1060" y="153" width="54" height="54" rx="8"/>
+    <path d="m1075 179 9 9 17-20"/>
+  </g>
+</svg>

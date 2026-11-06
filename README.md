@@ -1,163 +1,79 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:064e3b,100:0f766e&height=230&section=header&text=JUZIKUWEI&fontSize=54&fontColor=39d353&animation=twinkling&fontAlignY=36&desc=AI-native%20%E2%80%A2%20Vibe%20coding%20%E2%80%A2%20RAG%20%E2%80%A2%20Agents%20%E2%80%A2%20Evaluation&descAlignY=58&descSize=18" alt="Juzikuwei banner" />
+<img src="assets/profile-header.svg" width="100%" alt="juzikuwei · AI 应用构建者 · 从想法到工作流，再到验证" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=800&color=00E676&center=true&vCenter=true&width=820&lines=%24+whoami+%E2%86%92+AI-native+application+builder;%24+focus+%E2%86%92+RAG+%C2%B7+Agents+%C2%B7+Evaluation+%C2%B7+MCP;%24+how+%E2%86%92+AI+writes+the+code+%E2%80%94+I+architect+and+verify;%24+motto+%E2%86%92+grounded+answers+over+glossy+demos;%24+now+%E2%86%92+building+tech-radar-agent" alt="Typing introduction" />
-</a>
+**把 AI 产品想法，做成可测试、可观测、有证据支撑的工作流。**
 
-<p>
-  <img src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-00e676?style=for-the-badge" alt="当前语言：简体中文" />
-  <a href="README.en.md"><img src="https://img.shields.io/badge/English-0d1117?style=for-the-badge" alt="Switch to English" /></a>
-</p>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=juzikuwei&style=for-the-badge&color=00e676&label=PROFILE+VIEWS" alt="Profile views" />
-  <a href="mailto:juzidekuwei@outlook.com"><img src="https://img.shields.io/badge/Email-juzidekuwei%40outlook.com-064e3b?style=for-the-badge&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/juzikuwei/tech-radar-agent"><img src="https://img.shields.io/badge/Featured-tech--radar--agent-0f766e?style=for-the-badge&logo=github&logoColor=white" alt="Featured project" /></a>
-</p>
+简体中文 · [English](README.en.md) · [所有项目](https://github.com/juzikuwei?tab=repositories) · [联系我](mailto:juzidekuwei@outlook.com)
 
 </div>
 
-## 🖥️ ~/whoami
+## 你好，我是 juzikuwei
 
-我构建 AI-native 应用，要求它们**可测试、可观测、有证据支撑**——是能在失败里活下来的工作流，而不是只在 demo 里好看的东西。
+我关注 **RAG、Agent 与评测**，喜欢把检索、工具调用和用户交互串成完整的应用。比起一次成功的输出，我更关心答案有没有依据、失败能不能定位、改动能不能验证。
 
-**我不手写代码——这里的每一行代码都由 AI（Claude Code 和 Codex）编写。** 架构设计、技术决策和验收测试由我负责。Vibe coding，按工程标准交付。
+我使用 Claude Code、Codex 和 Cursor 进行 AI 辅助开发：代码由 AI 编写，产品范围、架构取舍、审查与验收由我负责。
 
-- 🔭 **正在做** — [AI/Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent)：混合检索（E5 + BM25 + RRF + cross-encoder）、有界 tool-calling ReAct agent、确定性引用校验、只读 MCP server
-- 🧪 **在探索** — LangGraph、会话上下文压缩、agent 评测闭环、claim-level groundedness
-- 🌏 **工作语言** — 中文 & English · UTC+8
-- 📫 **联系我** — juzidekuwei@outlook.com
+## 代表项目
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+### [AI / Agent Tech Radar](https://github.com/juzikuwei/tech-radar-agent)
 
-## 🚀 ~/projects
+**面向 AI 技术资料的研究助手，让回答可以追溯到检索证据。**
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/juzikuwei/tech-radar-agent">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=juzikuwei&repo=tech-radar-agent&hide_border=true&bg_color=00000000&title_color=00e676&icon_color=22d3ee&text_color=94a3b8" alt="AI/Agent Tech Radar" />
-      </a>
-      <p>
-        <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00e676" alt="Python" />
-        <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=00e676" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=00e676" alt="React" />
-        <img src="https://img.shields.io/badge/RAG-0d1117?style=flat-square&logoColor=00e676" alt="RAG" />
-        <img src="https://img.shields.io/badge/MCP-0d1117?style=flat-square&logoColor=00e676" alt="MCP" />
-      </p>
-      <p><sub>Vibe-coded with Claude Code & Codex — human-owned architecture and acceptance.</sub></p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/juzikuwei/focus-group-AI-Agent">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=juzikuwei&repo=focus-group-AI-Agent&hide_border=true&bg_color=00000000&title_color=00e676&icon_color=22d3ee&text_color=94a3b8" alt="Focus Lab" />
-      </a>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00e676" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logoColor=00e676" alt="LangChain" />
-        <img src="https://img.shields.io/badge/Streaming-0d1117?style=flat-square&logoColor=00e676" alt="Streaming" />
-        <img src="https://img.shields.io/badge/LLM_apps-0d1117?style=flat-square&logoColor=00e676" alt="LLM applications" />
-      </p>
-      <p><sub>Vibe-coded with Claude Code & Codex — human-owned architecture and acceptance.</sub></p>
-    </td>
-  </tr>
-</table>
+- 混合检索：结合语义检索与 BM25，使用 RRF 融合与 cross-encoder 重排。
+- 有界 ReAct 工具调用、确定性引用校验，以及只读 MCP 服务。
+- FastAPI + React 聊天界面，串起检索、回答与证据查看。
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+`Python` · `FastAPI` · `React` · `RAG` · `MCP`
 
-## 🤖 ~/how-i-build
+[查看代码与使用说明 →](https://github.com/juzikuwei/tech-radar-agent#readme)
 
-这里的每一行代码都由 AI 编写——与 Claude Code、Codex 和 Cursor 一起 vibe coding。分工如下：
+### [Focus Lab · 虚拟焦点小组](https://github.com/juzikuwei/focus-group-AI-Agent)
 
-| Mine | AI's |
+**从产品概念出发，生成虚拟受访者、多轮访谈与结构化洞察报告。**
+
+- 串联受访者画像、主持提纲、访谈与报告，支持逐轮推进。
+- 支持多种模型接口与可选的联网资料增强。
+- 项目草稿和报告保存在浏览器本地，便于恢复与继续探索。
+
+`JavaScript` · `Python` · `FastAPI` · `LangChain`
+
+[查看代码与使用说明 →](https://github.com/juzikuwei/focus-group-AI-Agent#readme)
+
+## 我怎样构建
+
+| 环节 | 我关注的事 |
 | --- | --- |
-| 架构、范围与 spec | 实现——全部代码 |
-| 代码审查与设计质询 | 重构与样板代码 |
-| 验收：测试、评测套件、Trace | 测试脚手架 |
-| 决策记录与权衡取舍（ADR） | 文档草稿，由我编辑定稿 |
+| 定义问题 | 先明确用户目标、范围和验收标准 |
+| 设计工作流 | 让数据、证据、工具权限与失败路径清晰可见 |
+| 与 AI 协作 | 用具体约束推进实现，审查关键改动与技术取舍 |
+| 验证结果 | 用测试、评测与 Trace 检查行为，再迭代 |
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=00e676" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Codex-0d1117?style=for-the-badge&logo=openai&logoColor=00e676" alt="Codex" />
-  <img src="https://img.shields.io/badge/Cursor-0d1117?style=for-the-badge&logo=cursor&logoColor=00e676" alt="Cursor" />
-  <img src="https://img.shields.io/badge/Vibe%20Coding-059669?style=for-the-badge" alt="Vibe Coding" />
-</p>
+**正在探索：** 会话上下文压缩、Agent 评测闭环、回答中每项结论的证据支持程度。
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+<details>
+<summary>展开我的构建理念：地基、脚手架与可靠性</summary>
 
-## 🏗️ ~/mental-model
+构建 Agent 系统像盖房子：工程原理是地基，框架是脚手架，具体的产品行为需要自己设计。
 
-构建一个 agent 系统，就是在盖一栋房子：
+<img src="assets/mental-model-house-zh.svg" width="100%" alt="工程原理、框架和应用设计的房屋比喻" />
 
-<div align="center">
-  <img src="assets/mental-model-house-zh.svg" alt="房子比喻：工程原理是地基，LangGraph 是脚手架，你自己的代码是室内装修" width="100%" />
-</div>
+<img src="assets/mental-model-axes-zh.svg" width="100%" alt="构建能力与可靠性是需要共同提升的两个维度" />
 
-脚手架从不决定房间住起来的感觉。框架解决的是编排；让 agent 值得信任的那些决策，没有现成脚手架。
+先明确范围，再选择框架；先检查证据，再形成结论。把失败路径当作产品行为的一部分，用小实验验证大的设计决定。
 
-<div align="center">
-  <img src="assets/mental-model-axes-zh.svg" alt="两条轴线：横轴是构建能力，纵轴是可靠性——真正的功夫是从惊艳的 demo 走到可以被信任的系统" width="100%" />
-</div>
+</details>
 
-```text
-scope before framework
-evidence before confidence
-failure paths are product behavior
-small experiments before large abstractions
-ai writes, i verify
-```
-
-这里的代码由 AI 写——思考不是。
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
-
-## 📊 ~/stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=juzikuwei&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000&title_color=00e676&icon_color=22d3ee&text_color=94a3b8&ring_color=00e676" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=juzikuwei&layout=compact&hide_border=true&bg_color=00000000&title_color=00e676&text_color=94a3b8&langs_count=6" alt="Top languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=juzikuwei&hide_border=true&background=00000000&ring=00e676&fire=22d3ee&currStreakLabel=22d3ee&sideLabels=4ade80" alt="GitHub contribution streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=juzikuwei&theme=matrix&no-frame=true&no-bg=true&column=4&row=1&margin-w=6&margin-h=6" alt="GitHub trophies" />
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
-
-## 🎨 ~/contribution-art
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/profile-night-green.svg" alt="3D contribution graph" width="100%" />
+<details>
+<summary>展开贡献轨迹</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/juzikuwei/juzikuwei/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub 贡献记录蛇形动画" />
 </picture>
 
-</div>
+</details>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00e676,100:0d1117&height=3" alt="" />
+---
 
-## 🤝 ~/connect
-
-我边做边分享真实过程：架构决策、别扭的边界情况、评测里的缺口，以及每一个让 AI 工作流更可信的小改进。
-
-<p align="center">
-  <a href="https://github.com/juzikuwei?tab=repositories"><img src="https://img.shields.io/badge/See_all_projects-059669?style=for-the-badge&logo=github&logoColor=white" alt="See all projects" /></a>
-  <a href="mailto:juzidekuwei@outlook.com"><img src="https://img.shields.io/badge/Say_hello-juzidekuwei%40outlook.com-064e3b?style=for-the-badge&logoColor=white" alt="Email" /></a>
-</p>
-
-<div align="center">
-
-<sub>公开地构建——一次一个可度量的工作流。</sub>
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:064e3b,100:0d1117&height=140&section=footer&text=%3E%20EOF%20%E2%80%94%20thanks%20for%20visiting&fontSize=20&fontColor=39d353&fontAlignY=72" alt="" />
+欢迎交流 AI 应用、检索与 Agent 工程。**[juzidekuwei@outlook.com](mailto:juzidekuwei@outlook.com)** · 中文 / English · UTC+8
